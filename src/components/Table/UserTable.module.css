@@ -1,0 +1,43 @@
+.user-table-container {
+  padding: 20px;
+}
+
+.user-table-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse; /* Забезпечує злиття бордерів */
+  width: 100%;
+}
+
+thead {
+  border-bottom: 2px solid #ccc; /* Нижній бордер під назвами колонок */
+}
+
+thead th {
+  font-weight: bold;
+  padding: 10px;
+}
+
+tbody tr {
+  border: none; /* Відсутність бордерів для рядків */
+}
+
+tbody td {
+  padding: 10px;
+  border: none; /* Відсутність бордерів для комірок */
+}
+
+.delete-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}

@@ -4,6 +4,7 @@ import Users from './pages/Users';
 import EditUsers from './pages/EditUsers';
 import Layout from './components/Layout/Layout';
 import './App.css'
+import './reset.css'
 
 const App = () => {
   return (

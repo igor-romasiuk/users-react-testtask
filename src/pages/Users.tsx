@@ -1,5 +1,12 @@
+import UserTable from "../components/Table/UserTable";
+
 const Users = () => {
-  return <h1>Users Page</h1>;
+  return (
+    <div className="container">
+      <h1 className="sectionTitle">Users</h1>
+      <UserTable />
+    </div>
+  )
 };
 
 export default Users;
